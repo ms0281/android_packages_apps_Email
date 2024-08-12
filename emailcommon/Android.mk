@@ -38,6 +38,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_JAVA_LIBRARIES := \
     org.apache.http.legacy
+    
+LOCAL_USES_LIBRARIES := org.apache.http.legacy
 
 LOCAL_STATIC_ANDROID_LIBRARIES += androidx.core_core
 
